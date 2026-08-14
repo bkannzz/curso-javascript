@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container{
+            background-color: yellowgreen;
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 20px;
+            padding: 50px;
+        }
+
+        .item{
+            background-color: rgb(98, 156, 233);
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .tipo1{
+            justify-content: flex-end;
+        }
+
+        .tipo2{
+            justify-content: center;
+        }
+
+        .tipo3{
+            justify-content: space-around;
+        }
+
+        .tipo4{
+            justify-content: space-between;
+        }
+
+        .tipo5{
+            justify-content: space-evenly;
+        }
+    </style>
+    <title>Flexbox 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">item A</div>
+        <div class="item">item B</div>
+        <div class="item">item C</div>
+        <div class="item">item D</div>
+        <div class="item">item E</div>
+    </div>
+
+    <div class="container tipo1">
+        <div class="item">item A</div>
+        <div class="item">item B</div>
+        <div class="item">item C</div>
+        <div class="item">item D</div>
+        <div class="item">item E</div>
+    </div>
+
+    <div class="container tipo2">
+        <div class="item">item A</div>
+        <div class="item">item B</div>
+        <div class="item">item C</div>
+        <div class="item">item D</div>
+        <div class="item">item E</div>
+    </div>
+
+    <div class="container tipo3">
+        <div class="item">item A</div>
+        <div class="item">item B</div>
+        <div class="item">item C</div>
+        <div class="item">item D</div>
+        <div class="item">item E</div>
+    </div>
+
+    <div class="container tipo4">
+        <div class="item">item A</div>
+        <div class="item">item B</div>
+        <div class="item">item C</div>
+        <div class="item">item D</div>
+        <div class="item">item E</div>
+    </div>
+
+    <div class="container tipo5">
+        <div class="item">item A</div>
+        <div class="item">item B</div>
+        <div class="item">item C</div>
+        <div class="item">item D</div>
+        <div class="item">item E</div>
+    </div>
+</body>
+
+</html>
