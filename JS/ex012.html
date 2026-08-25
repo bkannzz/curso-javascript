@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+
+            margin-bottom: 20px;
+        }
+
+        button{
+            padding: 5px 40px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+    </style>
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>GetElements</h1>
+
+    <div id="quadrado">AZUL</div>
+
+    <button onclick="mudarcorverde()">VERDE</button>
+    <button onclick="mudarcorvermelho()">VERMELHO</button>
+    <button onclick="mudarcorazul()">AZUL</button>
+
+    <script>
+        function mudarcorverde(){
+            document.getElementById('quadrado').style.backgroundColor = 'green'
+            document.getElementById('quadrado').innerText = 'VERDE'
+        }
+
+        function mudarcorvermelho(){
+            document.getElementById('quadrado').style.backgroundColor = 'red'
+            document.getElementById('quadrado').innerText = 'VERMELHO'
+        }
+
+        function mudarcorazul(){
+            document.getElementById('quadrado').style.backgroundColor = 'blue'
+            document.getElementById('quadrado').innerText = 'AZUL'
+        }
+    </script>
+</body>
+</html>
